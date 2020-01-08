@@ -1,0 +1,6 @@
+{
+  "serverlessClass": "org.gtri.gamest.ftp.lambda.RecordSplitLambda",
+  "deploymentPresent": false,
+  "serverlessMethod": "splitMessage"
+}
+

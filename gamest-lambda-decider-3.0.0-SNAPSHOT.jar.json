@@ -1,0 +1,6 @@
+{
+  "serverlessClass": "org.gtri.gamest.ftp.lambda.LambdaDecider",
+  "deploymentPresent": false,
+  "serverlessMethod": "perform"
+}
+

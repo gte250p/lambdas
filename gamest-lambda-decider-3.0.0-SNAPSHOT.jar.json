@@ -1,6 +1,11 @@
 {
   "serverlessClass": "org.gtri.gamest.ftp.lambda.LambdaDecider",
-  "deploymentPresent": false,
-  "serverlessMethod": "perform"
+  "deploymentPresent": true,
+  "serverlessMethod": "perform",
+  "deployment": {
+    "functionName": "lambda-decider",
+    "topics": ["DECIDER"],
+    "namespace": "gammis"
+  }
 }
 

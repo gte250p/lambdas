@@ -1,6 +1,11 @@
 {
   "serverlessClass": "org.gtri.gamest.ftp.lambda.RecordSplitLambda",
-  "deploymentPresent": false,
-  "serverlessMethod": "splitMessage"
+  "deploymentPresent": true,
+  "serverlessMethod": "splitMessage",
+  "deployment": {
+    "functionName": "lambda-record-split",
+    "topics": ["SFTP_RECORD_SPLIT"],
+    "namespace": "gammis"
+  }
 }
 
